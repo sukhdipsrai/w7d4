@@ -197,3 +197,43 @@ Completed 200 OK in 92ms (Views: 88.2ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/application.self-7aae4f884d21c0f895d0e25909b4a3857ca3f7bdd4412baf28bf32a8b1f558b1.css?body=1" for ::1 at 2020-10-12 13:57:15 -0700
 Started GET "/assets/new_office.jpg" for ::1 at 2020-10-12 13:57:15 -0700
+Started GET "/application.html" for ::1 at 2020-12-10 14:24:21 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/a9cce38068b139a6/variables" for ::1 at 2020-12-10 14:24:22 -0500
+Started GET "/" for ::1 at 2020-12-10 14:27:06 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/653a9fc2a9c6abd5/variables" for ::1 at 2020-12-10 14:27:07 -0500
+Started GET "/index" for ::1 at 2020-12-10 14:27:25 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/90adf36d35b5b0ad/variables" for ::1 at 2020-12-10 14:27:25 -0500
+Started GET "/" for ::1 at 2020-12-10 14:29:23 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/2b890cebb2a06e99/variables" for ::1 at 2020-12-10 14:29:23 -0500
+Started GET "/cats/100" for ::1 at 2020-12-10 14:29:33 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/8096f3771bf308e7/variables" for ::1 at 2020-12-10 14:29:34 -0500
+Started GET "/" for ::1 at 2020-12-10 14:29:37 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/d8335591c69b3af7/variables" for ::1 at 2020-12-10 14:29:37 -0500
+Started GET "/cats/100" for ::1 at 2020-12-10 14:29:48 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/972696b11a9a575f/variables" for ::1 at 2020-12-10 14:29:48 -0500
+Started GET "/" for ::1 at 2020-12-10 14:29:53 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/4022b5f0064c5bd9/variables" for ::1 at 2020-12-10 14:29:53 -0500
