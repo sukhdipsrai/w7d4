@@ -237,3 +237,17 @@ Started GET "/" for ::1 at 2020-12-10 14:29:53 -0500
 ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
 
 Started POST "/__better_errors/4022b5f0064c5bd9/variables" for ::1 at 2020-12-10 14:29:53 -0500
+Started GET "/" for ::1 at 2020-12-10 14:39:32 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /home/syangrea/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (387.4ms)
+Completed 200 OK in 3866ms (Views: 3795.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2aa22e82259efd99d57d5f860e41906c0befe2f9a473bed4494488a850020211.css?body=1" for ::1 at 2020-12-10 14:39:37 -0500
