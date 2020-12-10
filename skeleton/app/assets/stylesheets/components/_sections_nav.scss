@@ -1,0 +1,17 @@
+.section-list{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-nav{
+    padding: 10px 0px 10px 0px;
+    border-bottom: $light-gray solid 1px;
+}
+
+.section-list li a:hover{
+    text-decoration: black underline;
+    background-color: $light-gray
+
+}
