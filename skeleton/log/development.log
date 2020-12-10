@@ -237,3 +237,92 @@ Started GET "/" for ::1 at 2020-12-10 14:29:53 -0500
 ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
 
 Started POST "/__better_errors/4022b5f0064c5bd9/variables" for ::1 at 2020-12-10 14:29:53 -0500
+Started GET "/" for ::1 at 2020-12-10 14:34:10 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/c6212b88d8b23592/variables" for ::1 at 2020-12-10 14:34:10 -0500
+Started GET "/" for ::1 at 2020-12-10 16:03:58 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/b1570f0df8fc6a79/variables" for ::1 at 2020-12-10 16:03:58 -0500
+Started GET "/" for ::1 at 2020-12-10 16:04:03 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/377601b86f7739dc/variables" for ::1 at 2020-12-10 16:04:04 -0500
+Started GET "/" for ::1 at 2020-12-10 16:04:15 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/7a39a5efa2fa426c/variables" for ::1 at 2020-12-10 16:04:15 -0500
+Started GET "/" for ::1 at 2020-12-10 16:04:16 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/cf19fd927db04fda/variables" for ::1 at 2020-12-10 16:04:16 -0500
+Started GET "/" for ::1 at 2020-12-10 16:04:17 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/969a952e076bc4e1/variables" for ::1 at 2020-12-10 16:04:17 -0500
+Started GET "/" for ::1 at 2020-12-10 16:05:33 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/920f788447890902/variables" for ::1 at 2020-12-10 16:05:33 -0500
+Started GET "/" for ::1 at 2020-12-10 16:05:37 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/47caf67082294ec4/variables" for ::1 at 2020-12-10 16:05:37 -0500
+Started GET "/" for ::1 at 2020-12-10 16:05:41 -0500
+
+ActiveRecord::ConnectionNotEstablished - No connection pool with 'primary' found.:
+
+Started POST "/__better_errors/0b359aab5c0d25e1/variables" for ::1 at 2020-12-10 16:05:42 -0500
+DEPRECATION WARNING: Leaving `ActiveRecord::ConnectionAdapters::SQLite3Adapter.represent_boolean_as_integer`
+set to false is deprecated. SQLite databases have used 't' and 'f' to serialize
+boolean values and must have old data converted to 1 and 0 (its native boolean
+serialization) before setting this flag to true. Conversion can be accomplished
+by setting up a rake task which runs
+
+  ExampleModel.where("boolean_column = 't'").update_all(boolean_column: 1)
+  ExampleModel.where("boolean_column = 'f'").update_all(boolean_column: 0)
+
+for all models and all boolean columns, after which the flag must be set to
+true by adding the following to your application.rb file:
+
+  Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
+ (called from instance_eval at /home/srai/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.4.4/lib/active_support/lazy_load_hooks.rb:71)
+Started GET "/" for ::1 at 2020-12-10 16:21:02 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.8ms)
+  Rendered shared/_masthead.html.erb (2.1ms)
+  Rendered shared/_sections_nav.html.erb (1.0ms)
+  Rendered shared/_search_modal.html.erb (3.3ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (90.4ms)
+Completed 200 OK in 3732ms (Views: 3720.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dfae0c398937aaf80ec00d625aeecb7d2def60da09607a420c1a97c086e9816f.css?body=1" for ::1 at 2020-12-10 16:21:06 -0500
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2020-12-10 16:21:06 -0500
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2020-12-10 16:21:06 -0500
+Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b664472357a8a5789dd39032a265.js?body=1" for ::1 at 2020-12-10 16:21:06 -0500
+Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac05516477d5081d593bb137b3d6808b.js?body=1" for ::1 at 2020-12-10 16:21:06 -0500
+Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for ::1 at 2020-12-10 16:21:06 -0500
+Started GET "/" for ::1 at 2020-12-10 16:21:56 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (1.1ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (2.8ms)
+  Rendered shared/_search_modal.html.erb (3.8ms)
+  Rendered shared/_main_content.html.erb (0.9ms)
+  Rendered static_pages/index.html.erb within layouts/application (64.6ms)
+Completed 200 OK in 242ms (Views: 234.8ms | ActiveRecord: 0.0ms)
+
+
