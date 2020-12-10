@@ -1,22 +1,31 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px 5px 5px;
+  border-bottom: 1px $light-gray solid;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
 }
 
 .left-nav {
 
   > ul {
     > li {
-
+      font-family: $sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 14px;
+      padding-top: 5px;
+      margin-left: 20px;
     }
   }
 
   span {
-
+   
   }
 }
 
@@ -25,7 +34,7 @@
   > ul {
 
     > li {
-  
+      margin-right: 5px;
     }
 
     > li:last-of-type {
@@ -34,11 +43,11 @@
   }
   
   i {
-
+    background-color: $light-gray;
   }
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: $light-gray;
 }
