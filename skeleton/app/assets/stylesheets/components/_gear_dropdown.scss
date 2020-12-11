@@ -6,13 +6,27 @@
     right: 0px;
     z-index: 5;
     width: 150px;
+    color: $light-gray;
     background: $dark-gray;
     box-shadow: -1px 4px 6px 1px rgba(0,0,0,0.50);
-    li ul li{
-        color: $light-gray;
+    li ul li a, li ul span, .dropdown-subtitle{
+        // padding: 0 0 20px 10px;
+        text-transform: uppercase;
+        color: $gray;
     }
+    .editions{
+        border-bottom: 1px solid $gray;
+    }
+    li{
+        padding: 0 20px 10px 5px;
+    }
+
     li:hover{
         background-color: $light-gray;
+    }
+    .dropdown-subtitle{
+        color: $dark-gray;
+        font-size: 12px;
     }
 }
 
