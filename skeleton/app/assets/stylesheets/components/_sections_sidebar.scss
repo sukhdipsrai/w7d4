@@ -1,0 +1,17 @@
+#sections-sidebar{
+    opacity: 0;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+#sections-sidebar.expand{
+    opacity: 1;
+    display: block;
+}
+
+.sections-sidebar-list{
+
+}
